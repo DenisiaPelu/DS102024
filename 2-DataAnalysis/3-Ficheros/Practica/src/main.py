@@ -1,7 +1,11 @@
+from pathlib import Path
 from auto_importer import AutoImporter
 
 # Inicializa el AutoImporter, utilizando la carpeta 'src' como base
-auto_importer = AutoImporter(base_dir='src')
+# auto_importer = AutoImporter(base_dir='src') 
+
+base_dir = Path(__file__).parent
+auto_importer = AutoImporter(base_dir=base_dir)
 
 # Ahora puedes importar los módulos directamente por su nombre
 import mi_utilidad
@@ -18,3 +22,5 @@ print(texto_procesado)
 
 
 # ¿y si no fuese src sino 3-Ficheros?
+# En ese caso solo cambariamos la base_dir por:
+# base_dir = Path(__file__).parent / '3-Ficheros' / 'Practica' / 'src'

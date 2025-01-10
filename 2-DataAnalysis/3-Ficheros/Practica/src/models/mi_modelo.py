@@ -12,8 +12,8 @@ class Modelo:
         """
         return f"Este es un modelo llamado {self.nombre}."
 
-def multiplicar(a, b):
-    """
-    Esta función toma dos números y devuelve su producto.
-    """
-    return a * b
+    def multiplicar(self,a, b):
+        """
+        Esta función toma dos números y devuelve su producto.
+        """
+        return a * b

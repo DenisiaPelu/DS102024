@@ -55,7 +55,7 @@
 * Cardinalidad
 * Distribución (gaussiana, uniforme...)
 * Valores faltantes (cantidad y porcentaje)
-* Outliers (cantidad y porcentaje)
+* Outliers (cantidad y porcentaje) 
 * Rango de valores
 * Moda/Media/Mediana
 * Asimetría y Curtosis
