@@ -32,6 +32,7 @@ ipywidgets = "^8.1.5"
 liac-arff = "^2.5.0"
 openpyxl = "^3.1.5"
 yfinance = "^0.2.50"
+orjson = "^3.10.14"
 
 
 [build-system]
