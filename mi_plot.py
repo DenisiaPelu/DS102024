@@ -102,3 +102,18 @@ class AutoPlot:
             sns.catplot(data=data, x=variables[0], y=variables[1], hue=variables[2], kind='point', palette='Set1')
             plt.title(f'Gráfico de puntos entre {variables[0]} y {variables[1]} por {variables[2]}', fontsize=14)
             plt.show()
+
+
+# import sys 
+# import os  # obtener el path del jupyter tenemos esto 
+# root_path = os.path.dirname(os.getcwd())  
+# root_path  
+# sys.path.append(root_path)  
+# sys.path
+# print('.')
+
+# # Importar la clase AutoPlot desde mi_plot.py
+# from mi_plot import AutoPlot
+
+# # Usar la clase
+# autoplot = AutoPlot()
