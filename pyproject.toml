@@ -36,6 +36,7 @@ orjson = "^3.10.14"
 scikit-optimize = "^0.10.2"
 optuna = "^4.2.0"
 skforecast = "^0.14.0"
+opencv-python = "^4.11.0.86"
 
 
 [build-system]
