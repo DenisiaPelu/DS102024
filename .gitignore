@@ -170,3 +170,5 @@ Prof/
 mnist.json
 train.parquet
 Dataset/
+Dataset/
+*.python-version
