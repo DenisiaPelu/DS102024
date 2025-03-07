@@ -172,3 +172,4 @@ train.parquet
 Dataset/
 *.python-version
 housing_tuning/
+*.jpg
