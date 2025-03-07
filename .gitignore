@@ -173,3 +173,5 @@ Dataset/
 *.python-version
 housing_tuning/
 *.jpg
+*.zip
+3-MachineLearning/7-DeepLearning/2-CNN/data/
