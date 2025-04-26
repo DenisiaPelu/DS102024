@@ -181,3 +181,4 @@ housing_tuning/
 Presentaciones/
 4-DataEngineer/PolarsPySpark/data/processed/yellow_tripdata.parquet
 4-DataEngineer/PolarsPySpark/etl_example/output/nyc_taxi.db
+4-DataEngineer/clase_airflow_etl-main/
